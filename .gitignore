@@ -1,0 +1,7 @@
+sim_gpio
+sim_ic
+sim_master
+sim_regs
+sim_rom
+sim_soc
+sim_timer

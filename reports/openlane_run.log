@@ -1,0 +1,36 @@
+
+╔════════════════════════════════════════════════════════════╗
+║ 🏃 Running design: axi_lite_soc_top                      ║
+╚════════════════════════════════════════════════════════════╝
+OpenLane v1.0.2 (ff5509f65b17bfa4068d5336495ab1718987ff69)
+All rights reserved. (c) 2020-2025 Efabless Corporation and contributors.
+Available under the Apache License, version 2.0. See the LICENSE file for more details.
+
+[36m[INFO]: Using configuration in 'designs/axi_lite_soc_top/config.tcl'...[91m
+[36m[INFO]: PDK Root: /openlane/pdks[91m
+[36m[INFO]: Process Design Kit: sky130A[91m
+[36m[INFO]: Standard Cell Library: sky130_fd_sc_hd[91m
+[36m[INFO]: Optimization Standard Cell Library: sky130_fd_sc_hd[91m
+[36m[INFO]: Run Directory: /openlane/designs/axi_lite_soc_top/runs/RUN_2026.11.08_10.14.16[91m
+[36m[INFO]: Saving runtime environment...[91m
+[36m[INFO]: Preparing LEF files for the nom corner...[91m
+[36m[INFO]: Preparing LEF files for the min corner...[91m
+[36m[INFO]: Preparing LEF files for the max corner...[91m
+[36m[INFO]: Running linter (Verilator) (log: designs/axi_lite_soc_top/runs/RUN_2026.11.08_10.14.16/logs/synthesis/linter.log)...[91m
+[31m[ERROR]: 2 errors found by linter[91m
+[31m[ERROR]: Step 0 (verilator_lint_check) failed with error:
+-code 1 -level 0 -errorcode NONE -errorinfo {
+    while executing
+"throw_error"
+    (procedure "run_verilator" line 60)
+    invoked from within
+"run_verilator"
+    (procedure "run_verilator_step" line 3)
+    invoked from within
+"run_verilator_step"} -errorline 1[91m
+[36m[INFO]: Saving current set of views in 'designs/axi_lite_soc_top/runs/RUN_2026.11.08_10.14.16/results/final'...[91m
+[36m[INFO]: Generating final set of reports...[91m
+[36m[INFO]: Created manufacturability report at 'designs/axi_lite_soc_top/runs/RUN_2026.11.08_10.14.16/reports/manufacturability.rpt'.[91m
+[36m[INFO]: Created metrics report at 'designs/axi_lite_soc_top/runs/RUN_2026.11.08_10.14.16/reports/metrics.csv'.[91m
+[36m[INFO]: Saving runtime environment...[91m
+[31m[ERROR]: Flow failed.[91m

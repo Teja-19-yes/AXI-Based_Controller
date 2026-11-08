@@ -1,0 +1,18 @@
+AXI4-LITE SOC - FINAL RESULTS
+============================
+Technology: SKY130A
+Clock constraint: 10 ns
+Synthesized cells: 3006
+Final cells: 11395
+Synthesis area: 31470.18 um2
+Core area: 69664.31 um2
+Die area: 0.078848 mm2
+Critical path: 2.31 ns
+Setup slack: 5.44 ns
+Hold slack: 0.31 ns
+Estimated power: 6.772 mW
+DRC violations: 0
+LVS errors: 0
+Fanout violations: 233
+Antenna violations: 1
+GDS: /home/lab-user/OpenLaneUser/designs/axi_lite_soc_top/runs/RUN_2026.11.08_10.17.27/results/signoff/axi_lite_soc_top.gds
